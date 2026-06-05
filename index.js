@@ -9,7 +9,7 @@ app.get('/login',(req,res)=>{
 res.send("my name is roushan")
 })
 app.get('/twitter',(req,res)=>{
-res.send(<h1>hi there from twitter</h1>)
+res.send('<h1>hi there from twitter</h1>')
 })
 app.listen(process.env.PORT,()=>{
     console.log(`app listening on port ${port}`)
